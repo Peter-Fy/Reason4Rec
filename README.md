@@ -1,3 +1,3 @@
-# StepRec
+# DeliRec
 
-This is the code and data for StepRec.
+This is the code and data for DeliRec.
