@@ -1,0 +1,8 @@
+jupyter==1.1.1
+scikit-learn==1.5.2
+gensim==4.3.3
+fire==0.6.0
+wandb==0.18.1
+openai==1.23.2
+pandas==2.2.2
+numpy==1.26.3

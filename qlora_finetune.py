@@ -1,19 +1,13 @@
-import pandas as pd
-import json 
-import re
-from tqdm import tqdm
 import numpy as np
 from unsloth import FastLanguageModel
 import os, wandb
 from trl.commands.cli_utils import TrlParser
-import torch
 from datasets import Dataset
 from transformers import set_seed, TrainingArguments, DataCollatorForSeq2Seq
 from trl import (
     SFTConfig, 
     SFTTrainer
 )
-from datasets import load_dataset
 from dataclasses import field, dataclass
 import pickle
 from unsloth.chat_templates import train_on_responses_only
@@ -42,7 +36,7 @@ def main():
     if training_args.report_to:
         if training_args.report_to[0] == 'wandb':
             print("Logging to wandb")
-            wandb.login(key="your_key_here")
+            wandb.login(key="your_key_here")            # please fill your wandb key here, or just fobidden wandb during trainig
             wandb.init(project=args.wandb_project, job_type = "training")
     print("=====================================================================================================")
     print("Arguments:")
