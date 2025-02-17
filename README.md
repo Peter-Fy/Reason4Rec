@@ -9,7 +9,7 @@ The implementation of our paper "[Reason4Rec: Large Language Models for Recommen
 - We conduct extensive experiments on three datasets, validating the effectiveness and rationality of the proposed DeliRec framework, showing the potential of slow thinking in recommendation.
 
 <div align="center">
-    <img src=".\figs\teaser.png" alt="teaser" style="zoom: 50%;" />
+    <img src=".\figs\teaser.png" alt="teaser" width="600px" />
     <p style="color: gray;">Figure 1. Comparison between the alignment objective of existing research, which optimizes LLMs to directly predict user feedback; and the objective of Deliberative Recommendation, which optimizes LLMs to conduct explicit reasoning about user preferences before generating the prediction.</p>
 </div>
 
@@ -18,7 +18,7 @@ The implementation of our paper "[Reason4Rec: Large Language Models for Recommen
 DeliRec utilizes multi-step reasoning via three collaborative experts with three core reasoning capabilities: Preference Distillation, Preference Matching, and Feedback Prediction. To align the reasoning process with users' true preferences, verbalized user feedback, i.e., reviews, is utilized.
 
 <div align="center">
-    <img src=".\figs\framework.png" alt="framework" style="zoom: 50%;" />
+    <img src=".\figs\framework.png" alt="framework" width="600px" />
     <p style="color: gray;">Figure 2. Illustration of the Deliberative User Preference Alignment framework.</p>
 </div>
 
@@ -44,7 +44,7 @@ DeliRec utilizes multi-step reasoning via three collaborative experts with three
 
 ### Dataset
 
-We upload both the raw and pre-processed data on Google Drive. You can download them from here.
+We upload both the raw and pre-processed data on Google Drive. You can download them from [here](https://drive.google.com/file/d/1Hcw_c8Qc3H2szKXQ5jR1TE_cCDB4HVYw/view?usp=drive_link).
 
 ### Training
 
