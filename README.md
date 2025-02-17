@@ -5,8 +5,8 @@ The implementation of our paper "[Reason4Rec: Large Language Models for Recommen
 ## Introduction
 
 - We formulate the *Deliberative Recommendation* task, which pursues LLMs conducting reasoning before making prediction by learning from verbalized user feedback. 
-- We propose a *Deliberative User Preference Alignment* framework (DeliRec), which achieves the reasoning process with step-wise experts associated with specifically designed training strategies. 
-- We conduct extensive experiments on three datasets, validating the effectiveness and rationality of the proposed DeliRec framework, showing the potential of slow thinking in recommendation.
+- We propose a *Reasoning-powered Recommender* framework (Reason4Rec) for deliberative user preference alignment, which achieves the reasoning process with step-wise experts associated with specifically designed training strategies. 
+- We conduct extensive experiments on three datasets, validating the effectiveness and rationality of the proposed Reason4Rec framework, showing the potential of slow thinking in recommendation.
 
 <div align="center">
     <img src=".\figs\teaser.png" alt="teaser" width="600px" />
@@ -15,11 +15,11 @@ The implementation of our paper "[Reason4Rec: Large Language Models for Recommen
 
 ## Framework
 
-DeliRec utilizes multi-step reasoning via three collaborative experts with three core reasoning capabilities: Preference Distillation, Preference Matching, and Feedback Prediction. To align the reasoning process with users' true preferences, verbalized user feedback, i.e., reviews, is utilized.
+Reason4Rec utilizes multi-step reasoning via three collaborative experts with three core reasoning capabilities: Preference Distillation, Preference Matching, and Feedback Prediction. To align the reasoning process with users' true preferences, verbalized user feedback, i.e., reviews, is utilized.
 
 <div align="center">
     <img src=".\figs\framework.png" alt="framework" width="600px" />
-    <p style="color: gray;">Figure 2. Illustration of the Deliberative User Preference Alignment framework.</p>
+    <p style="color: gray;">Figure 2. Illustration of the Reasoning-powered Recommender framework.</p>
 </div>
 
 ## Getting Started
