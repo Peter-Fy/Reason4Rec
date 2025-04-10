@@ -1,4 +1,4 @@
-"""Sample 8000 entries from the training data for reward model training and 12000 entries for DeliRec training."""
+"""Sample 8000 entries from the training data for reward model training and 12000 entries for Reason4Rec training."""
 
 import pandas as pd
 from tqdm import tqdm

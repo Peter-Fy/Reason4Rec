@@ -51,7 +51,7 @@ Analyze whether the user will like the new {product_class} "{target_title}" base
         "messages": [
             {
                 "role": "user",
-                "content": row['stage1_question']
+                "content": question
             },
             {
                 "role": "assistant",

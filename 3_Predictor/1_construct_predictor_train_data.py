@@ -8,7 +8,7 @@ import pickle
 
 dataset = 'Music_data'
 product_class = 'Digital Music'
-data_df = pd.read_pickle(f'./Data/{dataset}/distilling_gpt_reasons.pkl')
+data_df = pd.read_pickle(f'./Data/{dataset}/distilling_high_quality_reasons.pkl')
 history_df = pd.read_pickle(f'./Data/{dataset}/train_summarizer_generation_results.pkl')
 
 reasoner, tokenizer = FastLanguageModel.from_pretrained(

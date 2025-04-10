@@ -6,3 +6,4 @@ wandb==0.18.1
 openai==1.23.2
 pandas==2.2.2
 numpy==1.26.3
+unsloth==2024.11.7
